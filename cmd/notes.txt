@@ -1,5 +1,11 @@
 // package main
 
+// import (
+// 	"log"
+
+// 	"github.com/celsoRodrigues/gpg/mycrypt"
+// )
+
 // // create gpg keys with
 // // $ gpg --gen-key
 // // ensure you correct paths and passphrase
@@ -17,16 +23,16 @@
 // 	secretKeyring := prefix + ".gnupg/secring.gpg"
 // 	publicKeyring := prefix + ".gnupg/pubring.gpg"
 
-// 	// m := mycrypt.NewEncWithOptins()
+// 	m := mycrypt.NewEncWithOptins()
 
-// 	// encStr, err := m.Enc(mySecretString, secretKeyring, publicKeyring)
-// 	// if err != nil {
-// 	// 	log.Fatal(err)
-// 	// }
-// 	// decStr, err := m.Dec(encStr, secretKeyring, passphrase)
-// 	// if err != nil {
-// 	// 	log.Fatal(err)
-// 	// }
-// 	// // should be done
-// 	// log.Println("Decrypted Secret:", decStr)
+// 	encStr, err := m.Enc(mySecretString, secretKeyring, publicKeyring)
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+// 	decStr, err := m.Dec(encStr, secretKeyring, passphrase)
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+// 	// should be done
+// 	log.Println("Decrypted Secret:", decStr)
 // }
