@@ -1,0 +1,32 @@
+// package main
+
+// // create gpg keys with
+// // $ gpg --gen-key
+// // ensure you correct paths and passphrase
+
+// func main() {
+
+// 	/*
+// 		gpg --gen-key --homedir .gnupg
+// 		gpg --no-default-keyring --homedir ./.gnupg/ --export-secret-keys > ./.gnupg/secring.gpg
+// 		gpg --no-default-keyring --homedir ./.gnupg/ --export > ./.gnupg/pubring.gpg
+// 	*/
+
+// 	mySecretString := "this is so very secret!"
+// 	prefix, passphrase := "/home/celso/", "***"
+// 	secretKeyring := prefix + ".gnupg/secring.gpg"
+// 	publicKeyring := prefix + ".gnupg/pubring.gpg"
+
+// 	// m := mycrypt.NewEncWithOptins()
+
+// 	// encStr, err := m.Enc(mySecretString, secretKeyring, publicKeyring)
+// 	// if err != nil {
+// 	// 	log.Fatal(err)
+// 	// }
+// 	// decStr, err := m.Dec(encStr, secretKeyring, passphrase)
+// 	// if err != nil {
+// 	// 	log.Fatal(err)
+// 	// }
+// 	// // should be done
+// 	// log.Println("Decrypted Secret:", decStr)
+// }
